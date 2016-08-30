@@ -11,7 +11,9 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 # devise for user auth
 gem 'devise'
-
+# bower
+gem "bower-rails", "~> 0.10.0"
+# dotenv
 gem 'dotenv'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
