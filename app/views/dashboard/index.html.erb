@@ -1,4 +1,8 @@
 <h1>Temporary Root Page</h1>
 <div>
+  <% if current_user%>
   Logged in as: <%= current_user.email %>
+  <% else %>
+  Current not logged in
+  <% end %>
 </div>
