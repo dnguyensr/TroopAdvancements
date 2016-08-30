@@ -9,6 +9,8 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 # Devise for user auth
 gem 'devise'
+# bower
+gem "bower-rails", "~> 0.10.0"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
