@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <navbar>
+      <ul>
+        <li><%= link_to "Register", new_user_registration_path %></li>
+        <li><%= link_to "Login", new_user_session_path %></li>
+        <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+      </ul>
+    </navbar>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield %>
