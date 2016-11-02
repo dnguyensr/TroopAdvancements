@@ -1,0 +1,2 @@
+class MeritBadge < ApplicationRecord
+end

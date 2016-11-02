@@ -4,6 +4,8 @@ class CreateRequirements < ActiveRecord::Migration[5.0]
       t.integer :number
       t.text :description
       t.date :completed
+
+      t.timestamps
     end
   end
 end
