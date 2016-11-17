@@ -1,4 +1,4 @@
-# TroopAdvancements
+# TroopAdvancements[![Build Status](https://travis-ci.org/dnguyensr/TroopAdvancements.svg?branch=master)](https://travis-ci.org/dnguyensr/TroopAdvancements)
 Boy Scouts advancements tracking web application.
 
 ## Fuctionality
@@ -27,5 +27,5 @@ Boy Scouts advancements tracking web application.
         - [ ] List of members of Patrol Leader's Council
         - [ ] List of members organized by patrols
         - [ ] List of members alphabetical by last name
-    - [ ] Parents 
+    - [ ] Parents
         - [ ] Overview of their child's advancements
