@@ -52,12 +52,12 @@ RSpec.describe RequirementsController, type: :controller do
     end
   end
 
-  describe "GET #new" do
-    it "assigns a new requirement as @requirement" do
-      get :new, params: {}, session: valid_session
-      expect(assigns(:requirement)).to be_a_new(Requirement)
-    end
-  end
+  # describe "GET #new" do
+  #   it "assigns a new requirement as @requirement" do
+  #     get :new, params: {}, session: valid_session
+  #     expect(assigns(:requirement)).to be_a_new(Requirement)
+  #   end
+  # end
 
   describe "GET #edit" do
     it "assigns the requested requirement as @requirement" do

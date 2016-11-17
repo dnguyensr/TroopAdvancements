@@ -52,12 +52,12 @@ RSpec.describe RanksController, type: :controller do
     end
   end
 
-  describe "GET #new" do
-    it "assigns a new rank as @rank" do
-      get :new, params: {}, session: valid_session
-      expect(assigns(:rank)).to be_a_new(Rank)
-    end
-  end
+  # describe "GET #new" do
+  #   it "assigns a new rank as @rank" do
+  #     get :new, params: {}, session: valid_session
+  #     expect(assigns(:rank)).to be_a_new(Rank)
+  #   end
+  # end
 
   describe "GET #edit" do
     it "assigns the requested rank as @rank" do
