@@ -52,12 +52,12 @@ RSpec.describe AdvancementsController, type: :controller do
     end
   end
 
-  describe "GET #new" do
-    it "assigns a new advancement as @advancement" do
-      get :new, params: {}, session: valid_session
-      expect(assigns(:advancement)).to be_a_new(Advancement)
-    end
-  end
+  # describe "GET #new" do
+  #   it "assigns a new advancement as @advancement" do
+  #     get :new, params: {}, session: valid_session
+  #     expect(assigns(:advancement)).to be_a_new(Advancement)
+  #   end
+  # end
 
   describe "GET #edit" do
     it "assigns the requested advancement as @advancement" do
