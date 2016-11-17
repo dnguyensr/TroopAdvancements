@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :requirements
   resources :ranks
   resources :advancements
   devise_for :users
