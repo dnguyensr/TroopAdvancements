@@ -19,3 +19,12 @@ firstclass = Rank.create(rank: "First Class", description: "First Class", advanc
 life = Rank.create(rank: "Star", description: "Star", advancement_id: scout.advancement.id)
 star = Rank.create(rank: "Life", description: "Life", advancement_id: scout.advancement.id)
 eagle = Rank.create(rank: "Eagle", description: "Eagle", advancement_id: scout.advancement.id)
+
+t.integer :number
+t.text :description
+t.date :completed
+t.integer :rank_id
+
+part
+
+scout1a = Requirement.create(number: 1, rank_id: scoutrank.id, description: "Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In your own words, explain their meaning." )
