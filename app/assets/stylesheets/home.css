@@ -1,0 +1,20 @@
+
+body {
+  margin-bottom: 1.5em;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 1.5em;
+}
+
+.bg-tree {
+  background-color: #816C5B;
+  color: white;
+}
+#bg-tree {
+  background-color: #816C5B;
+  color: white;
+}
