@@ -25,6 +25,4 @@ t.text :description
 t.date :completed
 t.integer :rank_id
 
-part
-
 scout1a = Requirement.create(number: 1, rank_id: scoutrank.id, description: "Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In your own words, explain their meaning." )
