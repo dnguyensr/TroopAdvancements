@@ -1,6 +1,10 @@
 class AdvancementsController < ApplicationController
   before_action :set_advancement, only: [:show, :edit, :update, :destroy]
 
+  def view
+      @advancements = Advancement.find_by(user_id: current_user.id)
+      @ranks = @advancements.ranks
+  end
   # GET /advancements
   # GET /advancements.json
   def index
@@ -60,6 +64,8 @@ class AdvancementsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
