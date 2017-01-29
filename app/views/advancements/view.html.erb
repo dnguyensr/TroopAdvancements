@@ -1,0 +1,42 @@
+
+<div class="container">
+    <h1 class="text-center">Advancements View</h1>
+    <h1 class="text-center">Active rank: <%= @advancements.ranks[0].description %></h1>
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <ul class="nav nav-tabs">
+                <li><a href="#">Scout</a></li>
+                <li><a href="#">Tenderfoot</a></li>
+                <li><a href="#">Second Class</a></li>
+                <li><a href="#">First Class</a></li>
+                <li><a href="#">Star</a></li>
+                <li><a href="#">Life</a></li>
+                <li><a href="#">Eagle</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Part</th>
+                        <th>Description</th>
+                        <th>Complete</th>
+                        <th>Date</th>
+                    </tr>
+                    <% @ranks[0].requirements.each do |requirement| %>
+                    <tr>
+                        <td><%= requirement.number %></td>
+                        <td><%= requirement.part %></td>
+                        <td><%= requirement.description %></td>
+                        <td></td>
+                        <td><%= requirement.completed %></td>
+                    </tr>
+                    <% end %>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
