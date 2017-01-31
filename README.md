@@ -3,7 +3,7 @@ Troop Advancements is a Boy Scouts advancements tracking web application. Core f
 
 Additional resources for adult leaders will be added, such as example activities that can be both fun for youths as well as meet advancement goals, once core functionality goals are met.
 
-## Fuctionality
+## Functionality
 
 ### Phase 1
 - [ ] User roles: Boy Scouts, adult leader
@@ -11,12 +11,7 @@ Additional resources for adult leaders will be added, such as example activities
   - [ ] Boy Scouts
       - [ ] Overview of current advancements
           - [ ] Requirements and tracking of advancements by rank
-          - [ ] Merit Badges
-              - [ ] Categorized based on requirements
-              - [ ] Included tracking
-              - [ ] Enable uploading of blue cards?
   - [ ] Adult leader
-      - [ ] Add and/or approve Boy Scouts, adult leaders, and parents
       - [ ] Overview of Advancements
       - [ ] List of members alphabetical by last name
 
@@ -42,7 +37,7 @@ Additional resources for adult leaders will be added, such as example activities
 - [ ] User roles: parents*
 - [ ] Home Page
     - [ ] Calendar of Events
-    - [ ] News/Annoncements
+    - [ ] News/Announcements
 - [ ] User Dashboards
     - [ ] Parents
         - [ ] Overview of their child's advancements

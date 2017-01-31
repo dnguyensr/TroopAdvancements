@@ -56,5 +56,3 @@ def create_rank_scout
 end
 
 create_scout
-
-#scout1a = Requirement.create(number: 1, rank_id: scoutrank.id, description: "Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In your own words, explain their meaning." )
