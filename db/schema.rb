@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161122080455) do
+ActiveRecord::Schema.define(version: 20170201062517) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20161122080455) do
   end
 
   create_table "ranks", force: :cascade do |t|
-    t.string   "rank"
+    t.string   "name"
     t.text     "description"
     t.date     "completed"
     t.integer  "advancement_id"
@@ -37,7 +37,14 @@ ActiveRecord::Schema.define(version: 20161122080455) do
     t.integer  "rank_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "sub_requirements", force: :cascade do |t|
     t.string   "part"
+    t.text     "description"
+    t.integer  "requirement_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "users", force: :cascade do |t|
