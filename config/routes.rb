@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sub_requirements
   resources :requirements
   resources :ranks
   resources :advancements
