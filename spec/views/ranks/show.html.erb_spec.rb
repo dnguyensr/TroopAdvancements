@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "ranks/show", type: :view do
   before(:each) do
     @rank = assign(:rank, Rank.create!(
-      :rank => "Rank",
+      :name => "Rank",
       :description => "MyText",
       :advancement_id => 2
     ))

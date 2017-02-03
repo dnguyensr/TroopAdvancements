@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "ranks/edit", type: :view do
   before(:each) do
     @rank = assign(:rank, Rank.create!(
-      :rank => "MyString",
+      :name => "MyString",
       :description => "MyText",
       :advancement_id => 1
     ))
@@ -14,7 +14,7 @@ RSpec.describe "ranks/edit", type: :view do
 
     assert_select "form[action=?][method=?]", rank_path(@rank), "post" do
 
-      assert_select "input#rank_rank[name=?]", "rank[rank]"
+      assert_select "input#rank_name[name=?]", "rank[name]"
 
       assert_select "textarea#rank_description[name=?]", "rank[description]"
 

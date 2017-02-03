@@ -4,12 +4,12 @@ RSpec.describe "ranks/index", type: :view do
   before(:each) do
     assign(:ranks, [
       Rank.create!(
-        :rank => "Rank",
+        :name => "Rank",
         :description => "MyText",
         :advancement_id => 2
       ),
       Rank.create!(
-        :rank => "Rank",
+        :name => "Rank",
         :description => "MyText",
         :advancement_id => 2
       )
