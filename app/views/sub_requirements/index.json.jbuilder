@@ -1,0 +1,1 @@
+json.array! @sub_requirements, partial: 'sub_requirements/sub_requirement', as: :sub_requirement

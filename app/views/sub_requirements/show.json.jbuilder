@@ -1,0 +1,1 @@
+json.partial! "sub_requirements/sub_requirement", sub_requirement: @sub_requirement
