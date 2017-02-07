@@ -1,4 +1,6 @@
 # Troop Advancements [![Build Status](https://travis-ci.org/dnguyensr/TroopAdvancements.svg?branch=master)](https://travis-ci.org/dnguyensr/TroopAdvancements)
+This project is currently on hold as a different db schema and user scope is explored on [advancements](https://github.com/dnguyensr/advancements)  
+
 Troop Advancements is a Boy Scouts advancements tracking web application. Core functionality is focused on enabling Boy Scouts taking responsibility for tracking their advancements and adult leaders having an application to view and analyze where their troop is in regards to advancements. Additionally, youth leaders can advocate for their patrol members at patrol leaders' council meetings and adult leaders can update youths and parents on the status of the troop advancements.
 
 Additional resources for adult leaders will be added, such as example activities that can be both fun for youths as well as meet advancement goals, once core functionality goals are met.
